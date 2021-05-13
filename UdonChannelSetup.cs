@@ -102,7 +102,7 @@ public class UdonChannelSetupEditor : Editor
             {
 
                 Debug.Log($"{searchResult.Snippet.ResourceId.VideoId}, {searchResult.Snippet.Title}");
-                titles.Add($"{searchResult.Snippet.Title.Normarize()}");
+                titles.Add($"{searchResult.Snippet.Title.Normalize()}");
                 urlString.Add("https://youtu.be/" + $"{searchResult.Snippet.ResourceId.VideoId}");
 
             }
